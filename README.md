@@ -172,7 +172,7 @@ In this lab, Cowrie acts as the honeypot by simulating a real SSH server on port
 |:-----------|:------------|
 | ![Kali IP](https://github.com/user-attachments/assets/0e565e33-4e1d-4ce9-817b-22aa1d6c818b) | Kali VM assigned static IP `192.168.1.20` |
 | ![Ubuntu IP](https://github.com/user-attachments/assets/5492879f-22c0-47d9-bcd4-791562a3ba31) | Ubuntu VM assigned static IP `192.168.1.10` |
-| ![Ping Test](https://github.com/user-attachments/assets/73319ebb-9ae0-410f-a060-92208b432166) | Kali successfully pings Ubuntu — network connectivity confirmed |
+| ![Ping Test](https://github.com/user-attachments/assets/73319ebb-9ae0-410f-a060-92208b432166) | Kali successfully pings Ubuntu network connectivity |
 | ![Cowrie Status](https://github.com/user-attachments/assets/62abd88f-2700-415a-9fdd-02739964ffea) | `cowrie status` shows the honeypot is running |
 | ![Cowrie on Port 22](https://github.com/user-attachments/assets/30d042b3-0796-4907-8e16-e997eeea2af2) | `ss -tlnp` confirms Cowrie is listening on port 22 |
 | ![SSH to Honeypot](https://github.com/user-attachments/assets/d3c91c9b-a1af-4618-be91-ff74c21f4878) | SSH connection from Kali lands in Cowrie's fake shell (`root@svr04`) |
