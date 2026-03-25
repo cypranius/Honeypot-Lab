@@ -73,7 +73,7 @@ A honeypot is a decoy system designed to look like a legitimate server, tricking
    sudo ip addr flush dev enp0s3
    sudo ip addr add 192.168.1.10/24 dev enp0s3
    sudo ip link set enp0s3 up
-   ``
+    ```
 11. Created cowrie user
     ```bash
     sudo adduser --disabled-password --gecos "" cowrie
