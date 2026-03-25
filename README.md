@@ -33,7 +33,7 @@ A fully isolated cybersecurity lab built in VirtualBox, featuring a Cowrie SSH h
 - **Static IP Configuration** – Assigned fixed IP addresses (`192.168.1.10` for Ubuntu, `192.168.1.20` for Kali) ensuring reliable, predictable communication between the honeypot and attacker machine
 - **Authbind for Privileged Port Access** – Configured authbind to allow the non-root `cowrie` user to bind to port 22, enabling the honeypot to receive SSH traffic directly without running as root
 **Manual SSH Service Disable**, Disabled systemd's default SSH socket to free port 22 for the honeypot, showing understanding of Linux service management
-- **Dual‑VM Attack Simulation** Dedicated Kali machine enables safe, repeatable attack simulations without contaminating the honeypot host
+- **Dual‑VM Attack Simulation** - Dedicated Kali machine enables safe, repeatable attack simulations without contaminating the honeypot host
 
 ## 🗺️ Network Architecture
 | Component | IP Address | Role |
